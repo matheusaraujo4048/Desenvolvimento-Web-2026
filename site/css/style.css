@@ -1,0 +1,176 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #FFF2F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 6vw 3vw 6vw;
+    font-weight: 640;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+header nav ul {
+    font-size: 1vw;
+    color: #737373;
+    display: flex;
+    gap: 1.5vw;
+}
+
+a.join1 {
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    padding: 0.5vw;
+    border-radius: 0.3vw;
+}
+
+/*super-notebook-girl*/
+
+section.super-notebook-girl {
+    background-color: #FFF2F3;
+    padding: 3vw 6vw 0 6vw;
+    display: flex;
+    gap: 2vw;
+}
+
+section.super-notebook-girl a.join2 {
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 640;
+    padding: 0.9vw 1.5vw 0.9vw 1.5vw;
+    border-radius: 0.3vw;
+    display: inline-block;
+}
+
+section.super-notebook-girl a.lemo {
+    color: #96BB7C;
+    font-size: 1vw;
+    font-weight: 640;
+    padding: 0.9vw 1.5vw 0.9vw 1.5vw;
+    border-radius: 0.3vw;
+    display: inline-block;
+    border: 0.15vw solid #96BB7C;
+}
+
+section.super-notebook-girl h3 {
+    color: #96BB7C;
+    font-weight: 640;
+}
+
+section.super-notebook-girl h2 {
+    color: #252B42;
+    font-weight: 640;
+    font-size: 5vw;
+}
+
+section.super-notebook-girl p {
+    color: #737373;
+    font-size: 2vw;
+}
+
+section.super-notebook-girl img {
+    padding-right: 2vw;
+}
+
+/*liga da justiça uuauauauauuauauuuu*/
+
+section.justice-league {
+    padding: 3vw 6vw 3vw 6vw;
+}
+
+section.justice-league h3 {
+    color: #96BB7C;
+    font-weight: 640;
+}
+
+section.justice-league h2 {
+    color: #252B42;
+    font-weight: 640;
+    font-size: 3vw;
+}
+
+section.justice-league p {
+    color: #737373;
+    font-weight: 640;
+}
+
+section.justice-league h4 {
+    color: #252B42;
+    font-weight: 640;
+    font-size: 3vw;
+}
+
+section.justice-league ul{
+    display: flex;
+    justify-content: center;
+    padding: 3vw 6vw 3vw 6vw;
+    gap: 3.5vw;
+}
+
+section.justice-league ul li{  
+    width: 25vw;
+    background-color: #ECF0E8;
+    text-align: center;
+}
+
+section.justice-league ul li h4{
+    padding: 1.5vw 6vw 1.5vw 6vw;
+}
+
+section.justice-league ul li p{
+    padding: 1.5vw 6vw 1.5vw 6vw;
+}
+
+/*as notícias do canal 5*/
+
+section.channel-5 {
+    background-color: #FFF2F3;
+    padding: 3vw 6vw 3vw 6vw;
+    text-align: center;
+}
+
+section.channel-5 h3 {
+    color: #96BB7C;
+    font-weight: 640;
+}
+
+section.channel-5 h2 {
+    color: #252B42;
+    font-weight: 640;
+    font-size: 3vw;
+}
+
+section.justice-league p {
+    color: #737373;
+    font-weight: 640;
+}
+
+/*pés...*/
+
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 6vw 3vw 6vw;
+    font-weight: 640;
+}
+
+footer p {
+    font-size: 1vw;
+    color: #737373;
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    gap: 5vw;
+}
+
+footer img {
+    width: 2vw;
+}
