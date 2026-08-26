@@ -1,0 +1,132 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 2vw 10vw 2vw 10vw;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    gap: 3vw;
+}
+
+header h2{
+    font-size: 1.75vw;
+}
+
+header h2 a{
+    padding: 1vw 2vw 1vw 2vw;
+    color: white;
+    background-color: gold;
+    display: inline-block;
+    border-radius: 1vw;
+}
+
+section.enjoy{
+    background-color: rgb(250, 225, 225);
+    display: flex;
+    padding: 5vw 10vw 1vw 10vw;
+}
+
+section.enjoy div{
+    padding: 5vw 2vw 5vw 2vw;
+}
+
+section.enjoy h1{
+    font-size: 4vw;
+    font-weight: 640;
+}
+
+section.enjoy p{
+    color: rgb(85, 85, 85);
+    font-size: 1vw;
+}
+
+section.enjoy h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+    background-color: rgb(255, 30, 75);
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    display: inline-block;
+    border-radius: 25vw;
+}
+
+section.enjoy img{
+    width: 45vw;
+    height: 35vw;
+}
+
+section.about{
+    background-color: white;
+    text-align: center;
+    padding: 5vw 10vw 1vw 10vw;
+}
+
+section.about h2{
+    font-size: 4vw;
+    font-weight: 560;
+}
+
+section.about h4{
+    color: rgb(255, 30, 75);
+    font-size: 1.5vw;
+    font-weight: 560;
+}
+
+section.about p{
+    color: rgb(85, 85, 85);
+    font-size: 1vw;
+}
+
+section.about div{
+    display: flex;
+}
+
+section.about img{
+    width: 35vw;
+    height: 25vw;
+}
+
+section.popular{
+    background-color: rgb(240, 245, 250);
+    padding: 5vw 10vw 1vw 10vw;
+}
+
+section.food{
+    background-color: white;
+    padding: 5vw 10vw 1vw 10vw;
+}
+
+footer{
+    background-color: rgb(240, 245, 250);
+    padding: 5vw 10vw 1vw 10vw;
+}
+
+footer div{
+    background-color: rgb(255, 30, 75);
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+}
