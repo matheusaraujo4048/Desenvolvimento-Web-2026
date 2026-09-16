@@ -5,6 +5,20 @@ html {
     Arial, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #252b42;
+  font-weight: 600;
+}
+
+p {
+  color: #6f6f6f;
+}
+
 h1 {
   font-size: 6vw;
 }
@@ -35,6 +49,7 @@ p {
 
 header a {
   font-size: 3vw;
+  font-weight: 600;
 }
 
 header {
@@ -100,40 +115,97 @@ section.banner div.image img {
   display: none;
 }
 
+section.ready-to-ride {
+  text-align: center;
+  padding: 3vw 5vw 3vw 5vw;
+}
+
+section.ready-to-ride h2 {
+  padding: 2vw;
+}
+
+section.ready-to-ride div.imagem img {
+  display: none;
+  padding: 3vw;
+}
+
+section.ready-to-ride div.lista ul li {
+  padding: 3vw;
+}
+
+section.ready-to-ride div.lista ul li img {
+  width: 12vw;
+}
+
+section.ready-to-ride div.lista ul li h5 {
+  padding: 1vw 0;
+}
+
+section.download{
+  background-color: #fbbc05;
+  margin: 3vw;
+  padding: 3vw;
+  border-radius: 2vw;
+}
+
+section.download h2{
+  color: #ffffff;
+}
+
+section.download p{
+  width: 20%;
+  color: #ffffff;
+  padding: 2vw 0;
+}
+
+section.download a{
+  background-color: #252b42;
+  display: inline-block;
+  padding: 2vw;
+  color: #ffffff;
+  border-radius: 2vw;
+}
+
 @media only screen and (min-width: 600px) {
   h1 {
-    font-size: 5vw;
-  }
-
-  h2 {
     font-size: 4.5vw;
   }
 
-  h3 {
+  h2 {
     font-size: 4vw;
   }
 
-  h4 {
+  h3 {
     font-size: 3.5vw;
   }
 
-  h5 {
+  h4 {
     font-size: 3vw;
   }
 
-  h6 {
+  h5 {
     font-size: 2.5vw;
   }
 
+  h6 {
+    font-size: 5vw;
+  }
+
   p {
-    font-size: 2vw;
+    font-size: 1.5vw;
+  }
+
+  header {
+    padding: 2vw;
+    align-content: center;
+  }
+
+  header img {
+    width: 10vw;
   }
 
   header a {
-    font-size: 2vw;
-  }
-  header {
-    padding: 2vw;
+    font-size: 1.5vw;
   }
 
   header nav {
@@ -147,8 +219,8 @@ section.banner div.image img {
   }
 
   header nav ul li {
-  margin: 0;
-}
+    margin: 0;
+  }
 
   section.banner {
     display: flex;
@@ -157,8 +229,43 @@ section.banner div.image img {
     padding: 3vw 10vw 0 10vw;
   }
 
+  section.banner p.buttons img {
+    height: 3vw;
+  }
+
   section.banner div.image img {
     display: block;
     width: 50vw;
+  }
+
+  section.ready-to-ride div.two {
+    display: flex;
+  }
+
+  section.ready-to-ride div.imagem img {
+    display: block;
+    width: 50vw;
+  }
+
+  section.ready-to-ride div.lista {
+    text-align: left;
+  }
+
+  section.ready-to-ride div.lista ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+  }
+
+  section.ready-to-ride div.lista ul li {
+    width: 40%;
+  }
+
+  section.ready-to-ride div.lista ul li img {
+    width: 6vw;
+  }
+
+  section.ready-to-ride > p {
+    padding: 0 20%;
   }
 }
