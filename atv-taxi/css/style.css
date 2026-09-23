@@ -3,6 +3,7 @@ html {
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -47,14 +48,14 @@ p {
   font-size: 3vw;
 }
 
-header a {
-  font-size: 3vw;
-  font-weight: 600;
-}
-
 header {
   text-align: center;
   padding: 5vw;
+}
+
+header a {
+  font-size: 3vw;
+  font-weight: 600;
 }
 
 header img {
@@ -141,29 +142,63 @@ section.ready-to-ride div.lista ul li h5 {
   padding: 1vw 0;
 }
 
-section.download{
+section.download {
   background-color: #fbbc05;
-  margin: 3vw;
-  padding: 3vw;
+  margin: 6vw 10vw;
+  padding: 6vw;
   border-radius: 2vw;
+  text-align: center;
 }
 
-section.download h2{
+section.download div {
+  width: 100%;
+}
+
+section.download h2 {
   color: #ffffff;
 }
 
-section.download p{
-  width: 20%;
+section.download p {
   color: #ffffff;
-  padding: 2vw 0;
+  padding: 3vw 0;
 }
 
-section.download a{
+section.download a {
   background-color: #252b42;
   display: inline-block;
   padding: 2vw;
   color: #ffffff;
   border-radius: 2vw;
+}
+
+section.services {
+  text-align: center;
+  padding: 3vw 5vw 3vw 5vw;
+  display: block;
+}
+
+section.services h2 {
+  padding: 2vw 0;
+}
+
+section.services div.lista ul li {
+  background-color: #efefef;
+  padding: 3vw;
+  margin: 1vw;
+}
+
+section.services div.lista ul li:hover {
+  background-color: #fbbc05;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+section.services div.lista ul li img {
+  width: 6vw;
+}
+
+section.services div.lista ul li h2 {
+  padding: 1vw 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -267,5 +302,44 @@ section.download a{
 
   section.ready-to-ride > p {
     padding: 0 20%;
+  }
+
+  section.download {
+    background:
+      url(/images/iphone-pet-ui-normal.png),
+      url(/images/iphone-pet-ui-normal.png);
+    background-color: #fbbc05;
+    background-repeat: no-repeat;
+    background-size:
+      auto 90%,
+      auto 90%;
+    background-position:
+      62.5% 350%,
+      95% -300%;
+    display: flex;
+    text-align: left;
+  }
+
+  section.download div {
+    width: 50%;
+  }
+
+  section.services {
+    display: flex;
+    text-align: left;
+  }
+
+  section.services div.lista ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2vw;
+  }
+
+  section.services div.lista ul li {
+    gap: 2vw;
+  }
+
+  section.services div.lista ul li img {
+    width: 6vw;
   }
 }
